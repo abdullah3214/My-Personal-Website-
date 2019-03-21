@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <title> Freelancer | Abdullah Ahmad </title>
+        <link rel = "stylesheet" href = "myHomePage.css">
+    </head>
+    
+    <body>
+        <div id = "top"> </div>
+        <div id = "header">
+            Ahmad Web Design
+            <div id = "links">
+                <a href = "index.html"> Home </a>
+                <a href = "about.html"> About </a>
+                <a href = "contact.html"> Contact </a>
+                <a href = "hire.html"> Why hire me </a>
+                <a href = "charging.html"> Charging </a>
+            </div>
+            <center> <p class = "home"> Home | Ahmad Web Design </p> </center>
+        </div>
+        <hr>
+        
+        <div id = "homePagePicture"> 
+            <center> <img class = "mySlides"src = "Pictures/anotherOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrrOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrrrOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrrrrOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrrrrrrOne.jpg" width = "100%"> </center>
+            <center> <img class = "mySlides"src = "Pictures/anotherrrrrrrrrrrrrOne.jpg" width = "100%"> </center>
+            <div class="centered"><center> LET'S BUILD SOMETHING <br> AMAZING TOGETHER </center> </div>
+        </div>
+        
+        <br><hr>
+        
+        <div id = "mainContent">
+            <center> <strong> My focus </strong></center>
+            <p> Let's get right down to business. You need a website that is professional, looks stunning, and actually works. Bottom line, that's what I do. Still not convinced you should hire me? <a href = "contact.html"> Shoot me an Email and let's chat! </a> </p>
+        </div>
+        
+        <hr>
+        
+        <center> <a href = "#top">Back to top</a> </center>
+        
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+    }       
+        </script>
+    </body>
+</html>

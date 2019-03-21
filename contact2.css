@@ -1,0 +1,218 @@
+body{
+    margin : 0;
+    padding : 0;
+    text-align: center;
+    /*
+        background : linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("");
+    
+    https://i.ytimg.com/vi/iSIXlT4X_wU/maxresdefault.jpg */
+    background-size: cover;
+    background-position: cetner;
+    font-family: sans-serif;
+    background-color : #403F45;
+}
+
+.contact-title{
+    margin-top : 100px;
+    color : #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width : 600px;
+    background: transparent;
+    border : none;
+    outline : none;
+    border-bottom: 1px solid gray;
+    color : #fff;
+    font-size : 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height : 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color : #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height : 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor : pointer;
+}
+
+body{
+    background-color : #403F45;    /*   
+.med-yellow {color: #E6CE1D}
+.light-yellow {color: #F4DD08}
+.bright-yellow {color: #FDEC00}
+.classy-grey {color: #403F45}
+    
+    #E94F37;  #C0BCB5;*/
+}
+      
+#header{
+    color : #E6CE1D;
+    font-size : 30px;
+    font-style : Verdana;
+    text-align: left;
+}
+      
+a:link{
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #AD974F;
+    color: #EAEAEA;
+    background-color: #8E793E;
+    text-decoration: none;
+}
+
+a:active{
+    color: #AD974F;
+}
+
+#links{
+    float: right;
+    font-size: 25px;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: .5em;
+}
+
+hr{
+    border : 3px solid #AD974F;
+}
+
+/* .container & .centered : Center the text in the picture */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color : white;
+    font-size : 30px;
+}
+
+#mainContent{
+    color : white;
+    font-size : 30px;
+}
+
+.home{
+    color : #AD974F;
+    font-size : 30px;
+}
+
+p{
+    color : white;
+    font-size: 30px;
+}
+
+.black{
+    color : black;
+}
+
+/*
+
+    
+/*
+<?php
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$_email = $_POST['_email'];
+$phone = $_POST['phone'];
+$address = $_POST['address'];
+$cityzip = $_POST['cityzip'];
+$comments = $_POST['comments'];
+
+$headers = "MIME-Version: 1.0\r\n";
+$headers = "From: $_email";
+$to = 'email@domain.com';
+$subject = 'Accurate Solutions Contact Form Submitted';
+$message = "
+First Name: $firstname \n
+Last Name: $lastname \n
+Phone: $phone \n
+Address: $address \n
+City/Zip: $cityzip \n
+Email: $_email \n
+Comments: $comments \n";   //here the last double quote and the semicolon!
+
+mail($to, $subject, $message, $headers);
+
+
+
+<?php
+    echo "Hio there!"
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
+
+    $email_from = 'EasyTutorials@avinsahkr.com';
+    
+    $email_subject = "New Form Submission";
+    
+    $email_body = "User Name : $name.\n".
+                    "User Email : $visitor_email.\n".
+                        "User Message : $message.\n";
+
+    $to = "abdullahahmad161@gmail.com";
+
+    $headers = "From : $email_from \r\n";
+    
+    $headers .= "Reply-To : $visitor_email \r\n";
+
+    mail($to,$email_subject,$email_body,$headers);
+
+    header("Location : index.php?mailsend");
+
+
+?>
+
+
+
+
+
+*/
+
+*/

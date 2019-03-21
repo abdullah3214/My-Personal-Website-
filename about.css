@@ -1,0 +1,77 @@
+body{
+    background-color : #403F45;    /*   
+.med-yellow {color: #E6CE1D}
+.light-yellow {color: #F4DD08}
+.bright-yellow {color: #FDEC00}
+.classy-grey {color: #403F45}
+    
+    #E94F37;  #C0BCB5;*/
+}
+      
+#header{
+    color : #E6CE1D;
+    font-size : 30px;
+    font-style : Verdana;
+}
+      
+a:link{
+    color: white;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #AD974F;
+    color: #EAEAEA;
+    background-color: #8E793E;
+    text-decoration: none;
+}
+
+a:active{
+    color: #AD974F;
+}
+
+#links{
+    float: right;
+    font-size: 25px;
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: .5em;
+}
+
+hr{
+    border : 3px solid #AD974F;
+}
+
+/* .container & .centered : Center the text in the picture */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color : white;
+    font-size : 30px;
+}
+
+#mainContent{
+    color : white;
+    font-size : 30px;
+}
+
+.about{
+    color : #AD974F;
+    font-size : 30px;
+}
